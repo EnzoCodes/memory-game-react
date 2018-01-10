@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "abra",
+    "image": "../icons/abra.png"
+  },
+  {
+    "id": 2,
+    "name": "bellsprout",
+    "image": "../icons/bellsprout.png"
+  },
+  {
+    "id": 3,
+    "name": "bullbasaur",
+    "image": "../icons/bullbasaur.png"
+  },
+  {
+    "id": 4,
+    "name": "caterpie",
+    "image": "../icons/caterpie.png"
+  },
+  {
+    "id": 5,
+    "name": "charmander",
+    "image": "../icons/charmander.png"
+  },
+  {
+    "id": 6,
+    "name": "dratini",
+    "image": "../icons/dratini.png"
+  },
+  {
+    "id": 7,
+    "name": "eevee",
+    "image": "../icons/eevee.png"
+  },
+  {
+    "id": 8,
+    "name": "egg",
+    "image": "../icons/egg.png"
+  },
+  {
+    "id": 9,
+    "name": "jigglypuff",
+    "image": "../icons/jigglypuff.png"
+  },
+  {
+    "id": 10,
+    "name": "mankey",
+    "image": "../icons/mankey.png"
+  },
+  {
+    "id": 11,
+    "name": "mega-ball",
+    "image": "../icons/mega-ball.png"
+  },
+  {
+    "id": 12,
+    "name": "meowth",
+    "image": "../icons/meowth.png"
+  },
+  {
+    "id": 13,
+    "name": "mew",
+    "image": "../icons/mew.png"
+  },
+  {
+    "id": 14,
+    "name": "pidgey",
+    "image": "../icons/pidgey.png"
+  },
+  {
+    "id": 15,
+    "name": "pikachu",
+    "image": "../icons/pikachu.png"
+  },
+  {
+    "id": 16,
+    "name": "pokeball",
+    "image": "../icons/pokeball.png"
+  },
+  {
+    "id": 17,
+    "name": "psyduck",
+    "image": "../icons/psyduck.png"
+  },
+  {
+    "id": 18,
+    "name": "rattata",
+    "image": "../icons/rattata.png"
+  },
+  {
+    "id": 19,
+    "name": "snorlax",
+    "image": "../icons/snorlax.png"
+  },
+  {
+    "id": 20,
+    "name": "squirtle",
+    "image": "../icons/squirtle.png"
+  }
+]

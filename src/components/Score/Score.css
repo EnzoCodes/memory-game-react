@@ -1,0 +1,35 @@
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background: #ffffff;
+}
+
+.scoreWrap {
+  width: 85px;
+  height: 85px;
+  right: 5vh;
+  position: fixed;
+  z-index: 1000;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 4px 11px 12px 4px #0073e6;
+}
+
+.scoreWrap h3 {
+  font-size: 3em;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  padding: 13px 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  float: left;
+}
+.scoreWrap .score {
+  background: #7533e2;
+  color: #FFF;
+}

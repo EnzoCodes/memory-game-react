@@ -2,101 +2,121 @@
   {
     "id": 1,
     "name": "abra",
-    "image": "../icons/abra.png"
+    "image": "../icons/abra.png",
+    "clicked" : false
   },
   {
     "id": 2,
     "name": "bellsprout",
-    "image": "../icons/bellsprout.png"
+    "image": "../icons/bellsprout.png",
+    "clicked" : false
   },
   {
     "id": 3,
     "name": "bullbasaur",
-    "image": "../icons/bullbasaur.png"
+    "image": "../icons/bullbasaur.png",
+    "clicked" : false
   },
   {
     "id": 4,
     "name": "caterpie",
-    "image": "../icons/caterpie.png"
+    "image": "../icons/caterpie.png",
+    "clicked" : false
   },
   {
     "id": 5,
     "name": "charmander",
-    "image": "../icons/charmander.png"
+    "image": "../icons/charmander.png",
+    "clicked" : false
   },
   {
     "id": 6,
     "name": "dratini",
-    "image": "../icons/dratini.png"
+    "image": "../icons/dratini.png",
+    "clicked" : false
   },
   {
     "id": 7,
     "name": "eevee",
-    "image": "../icons/eevee.png"
+    "image": "../icons/eevee.png",
+    "clicked" : false
   },
   {
     "id": 8,
     "name": "egg",
-    "image": "../icons/egg.png"
+    "image": "../icons/egg.png",
+    "clicked" : false
   },
   {
     "id": 9,
     "name": "jigglypuff",
-    "image": "../icons/jigglypuff.png"
+    "image": "../icons/jigglypuff.png",
+    "clicked" : false
   },
   {
     "id": 10,
     "name": "mankey",
-    "image": "../icons/mankey.png"
+    "image": "../icons/mankey.png",
+    "clicked" : false
   },
   {
     "id": 11,
     "name": "mega-ball",
-    "image": "../icons/mega-ball.png"
+    "image": "../icons/mega-ball.png",
+    "clicked" : false
   },
   {
     "id": 12,
     "name": "meowth",
-    "image": "../icons/meowth.png"
+    "image": "../icons/meowth.png",
+    "clicked" : false
   },
   {
     "id": 13,
     "name": "mew",
-    "image": "../icons/mew.png"
+    "image": "../icons/mew.png",
+    "clicked" : false
   },
   {
     "id": 14,
     "name": "pidgey",
-    "image": "../icons/pidgey.png"
+    "image": "../icons/pidgey.png",
+    "clicked" : false
   },
   {
     "id": 15,
     "name": "pikachu",
-    "image": "../icons/pikachu.png"
+    "image": "../icons/pikachu.png",
+    "clicked" : false
   },
   {
     "id": 16,
     "name": "pokeball",
-    "image": "../icons/pokeball.png"
+    "image": "../icons/pokeball.png",
+    "clicked" : false
   },
   {
     "id": 17,
     "name": "psyduck",
-    "image": "../icons/psyduck.png"
+    "image": "../icons/psyduck.png",
+    "clicked" : false
   },
   {
     "id": 18,
     "name": "rattata",
-    "image": "../icons/rattata.png"
+    "image": "../icons/rattata.png",
+    "clicked" : false
   },
   {
     "id": 19,
     "name": "snorlax",
-    "image": "../icons/snorlax.png"
+    "image": "../icons/snorlax.png",
+    "clicked" : false
   },
   {
     "id": 20,
     "name": "squirtle",
-    "image": "../icons/squirtle.png"
+    "image": "../icons/squirtle.png",
+    "clicked" : false
   }
 ]

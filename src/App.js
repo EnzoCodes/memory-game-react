@@ -10,7 +10,7 @@ class App extends Component {
   state = {
       cards : cards,
       score : 0,
-      clicked : false
+      clicked : []
     };
 
   shuffle = () => {
@@ -35,34 +35,38 @@ class App extends Component {
     })
   };
 
-  clickImage = (id) => {
-      // this.setState({ count: this.state.count + 1 });
-      console.log("Pre-update", id, this.state.clicked);
-      this.id.setState({
-        clicked : true
-      });
-      // Shuffle Cards...
-      this.shuffle();
-      //  else
-      // this.reset();
-      console.log("State updated", id, this.state.clicked);
-  };
+  clickImage = (event) => {
+    let currentState = this.state.clicked;
+    let clickedCard = event.target.getAttribute("value");
+    console.log("before", currentState);
+    console.log(clickedCard);
+    // if(clickedCard == )
+    this.shuffle();
+
+    //Actual Game logic.
+    if (currentState.indexOf(clickedCard) == -1) {
+      currentState.push(clickedCard);
+      this.setState({ score: this.state.score + 1 });
+    } else {
+      //Clear state...
+      this.setState({ clicked: [] });
+      this.setState({ score: 0 });
+    }
+  }; // End click Image...
 
   //Reset Function...
-  reset = () => {
+  clickReset = () => {
     //Shuffle Cards
     this.shuffle();
     //Reset Score
     this.setState({
+      cards: cards,
       score : 0,
-      clicked : false
+      clicked: []
     });
     console.log("You tried to reset!");
-  };
+  }; // End reset.
 
-  componentDidMount(){ this.reset() };
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <div>

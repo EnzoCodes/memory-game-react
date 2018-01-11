@@ -7,8 +7,8 @@ const Card = props => {
     return (
       <div className="card" key={card.id}>
         <div className="img-container">
-          <span onClick={ () => props.clickImage( card.id ) } className="click">
-              <img alt={card.name} src={card.image} />
+          <span onClick={props.clickImage} className="click">
+              <img alt={card.name} src={card.image} value={card.id} />
           </span>
         </div>
       </div>
